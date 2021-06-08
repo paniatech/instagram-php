@@ -32,7 +32,7 @@
         }
     },
     "require": {
-        "php": ">=5.6",
+        "php": "^7.3",
         "lazyjsonmapper/lazyjsonmapper": "^1.6.1",
         "guzzlehttp/guzzle": "^7.0.1",
         "ext-curl": "*",
@@ -49,7 +49,7 @@
         "clue/http-proxy-react": "^1.1.0",
         "psr/log": "^1.0",
         "valga/fbns-react": "^0.1.8",
-        "symfony/process": "^3.4|^4.0",
+        "symfony/process": "^3.4|^4.0|^5.2",
         "winbox/args": "1.0.0"
     },
     "suggest": {
