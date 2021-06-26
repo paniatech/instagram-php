@@ -32,7 +32,7 @@
         }
     },
     "require": {
-        "php": "^7.3",
+        "php": "^7.4",
         "lazyjsonmapper/lazyjsonmapper": "^1.6.1",
         "guzzlehttp/guzzle": "^7.0.1",
         "ext-curl": "*",
@@ -49,7 +49,7 @@
         "clue/http-proxy-react": "^1.1.0",
         "psr/log": "^1.0",
         "valga/fbns-react": "^0.1.8",
-        "symfony/process": "^3.4|^4.0|^5.2",
+        "symfony/process": "^5.2",
         "winbox/args": "1.0.0"
     },
     "suggest": {
@@ -59,7 +59,7 @@
         "react/http": "^0.7.2",
         "friendsofphp/php-cs-fixer": "^2.8.0",
         "monolog/monolog": "^1.23",
-        "phpunit/phpunit": "^5.7 || ^6.2"
+        "phpunit/phpunit": "^9.3"
     },
     "scripts": {
         "codestyle": [
