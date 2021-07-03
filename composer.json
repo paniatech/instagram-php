@@ -12,7 +12,7 @@
         "PHP"
     ],
     "support": {
-        "source": "https://gitlab.com/e_rfn/"
+        "source": "https://github.com/paniatech/"
     },
     "authors": [
         {
@@ -32,9 +32,9 @@
         }
     },
     "require": {
-        "php": "^7.4",
+        "php": ">=5.6",
         "lazyjsonmapper/lazyjsonmapper": "^1.6.1",
-        "guzzlehttp/guzzle": "^6.3",
+        "guzzlehttp/guzzle": "^6.2",
         "ext-curl": "*",
         "ext-mbstring": "*",
         "ext-gd": "*",
@@ -49,7 +49,7 @@
         "clue/http-proxy-react": "^1.1.0",
         "psr/log": "^1.0",
         "valga/fbns-react": "^0.1.8",
-        "symfony/process": "^5.2",
+        "symfony/process": "^3.4|^4.0",
         "winbox/args": "1.0.0"
     },
     "suggest": {
@@ -57,13 +57,13 @@
     },
     "require-dev": {
         "react/http": "^0.7.2",
-        "friendsofphp/php-cs-fixer": "^2.8.0",
+        "friendsofphp/php-cs-fixer": "^2.11.0",
         "monolog/monolog": "^1.23",
-        "phpunit/phpunit": "^9.3"
+        "phpunit/phpunit": "^5.7 || ^6.2"
     },
     "scripts": {
         "codestyle": [
-            "lazydoctor -c composer.json -pfo >/dev/null",
+            "lazydoctor -c composer.json -pfo",
             "php-cs-fixer fix --config=.php_cs.dist --allow-risky yes",
             "php devtools/checkStyle.php x"
         ],
